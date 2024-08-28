@@ -1,0 +1,27 @@
+body{ 
+    background-color: thistle;
+}
+
+h1{
+    color: rgb(34, 33, 29);
+    text-align: center;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+h2{
+   color: rgb(128, 53, 53);
+   text-decoration:double ;
+}
+.container{
+    border: 2px solid black;
+    max-width: 500px;
+    margin: auto;
+    padding: 40px;
+    height: 45vh;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 255, 236);
+}
+

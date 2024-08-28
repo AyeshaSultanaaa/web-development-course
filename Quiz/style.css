@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(243, 186, 243);
+}
+.container{
+    border: 2px solid black;
+    max-width: 400px;
+    margin: auto;
+
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 255, 236);
+}

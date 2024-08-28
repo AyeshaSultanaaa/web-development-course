@@ -1,0 +1,9 @@
+body{
+    background-color: thistle;
+}
+td{
+    border: 2px solid black;
+}
+dl{
+    color: rgb(241, 138, 101);
+}
