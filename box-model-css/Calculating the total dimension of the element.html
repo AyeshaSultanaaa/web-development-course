@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Box Model </title>
+   <style>
+      .header {
+
+         background-color: #f0aa41;
+         margin: -2% -.6% -.6%;
+      }
+
+      .header h1 {
+         text-align: center;
+         padding: 10px;
+      }
+
+      a {
+         color: rgb(34, 111, 155);
+         padding: 20px;
+      }
+
+      .image {
+         margin: 4%;
+      }
+      .code-toolbar{
+         background-color: rgb(10, 8, 8);
+         width: 50%;
+         margin: 2%;
+         padding: 1.1%;
+      }
+      .token .punctuation {
+         color: white;
+      }
+     .property{
+         color: #f92672;
+      }
+      .selector{
+         color: green;
+      }
+      .token .tag{
+         color: #f92672;
+      }
+      span{
+         color: white;
+      }
+      .language-markup{
+         color: white;
+      }
+      .copy-to-clipboard-button{
+         background-color: black;
+      }
+      
+      
+      
+   </style>
+</head>
+
+<body>
+   <header class="header">
+      <h1>CSS-Box-Model</h1>
+      <div class="main-content">
+
+         <ol type="1">
+            <li><a href="what is concept of margin Collapse.html">what is concept of margin Collapse</a></li><br>
+
+         </ol>
+
+      </div>
+   </header>
+   <div class="main">
+      <h1 style="margin-left: 3%; margin-top: 3%;">Calculating the total dimension of the element</h1>
+      <p style="width: 800px; margin-left: 5%; margin-top: 3%;"> The total width and height of the element is calculated
+         with the formula:</p>
+         <div class="text">
+      <p>
+
+         <strong>Total Width</strong>
+         = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
+      </p>
+      <p>
+         <strong>Total Height</strong>
+         = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin
+      </p>
+   </div>
+      <div class="code-toolbar">
+         <pre class="language-markup"
+            tabindex="0"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+                <span class="token selector">p</span><span class="token punctuation">{</span>
+                    <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+                    <span class="token property">height</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+                    <span class="token property">padding</span><span class="token punctuation">:</span> 15px<span class="token punctuation">;</span>
+                    <span class="token property">border</span><span class="token punctuation">:</span> 10px solid red<span class="token punctuation">;</span>
+                    <span class="token property">margin</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>CodeWithAyesha<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code></pre>
+        
+
+   </div>
+</div>
+<div class="text2">
+<p>Here, the total height and width will be represented as</p>
+        <p>
+         <strong>Total Width</strong>
+         = 200px (width) + 15px (left padding) + 15px (right padding) + 10px (left border) + 10px (right border) + 5px (left margin) + 5px (right margin) = 260px.
+        </p>
+        <p>
+         <strong>Total Hieght</strong>
+         = 300px (Height) + 15px (Top Padding) + 15px (Bottom Padding) + 10px (Top Border) + 10px (Bottom Border) + 5px (Top Margin) + 5px (Bottom Margin) = 360px
+        </p>
+      </div>
+   <div class="image">
+      <img src="box.PNG" width="630px" alt="">
+   </div>
+
+</body>
+
+</html>
